@@ -203,3 +203,39 @@ footer {
     background: #140d07;
     color: #fff;
   }
+/* Ensure no margin around body and elements */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Fix header and footer width */
+header, footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Ensure no extra padding or margin for mobile view */
+* {
+    box-sizing: border-box;
+}
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem; /* Reduce size for smaller devices */
+    }
+    .rayz {
+        font-size: 1.5em; /* Adjust individual parts */
+    }
+    .olution {
+        font-size: 1.5em;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px; /* Add padding for better spacing */
+}
