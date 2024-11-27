@@ -1,0 +1,205 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: courier ;
+}
+
+/* Body Styling */
+body {
+    color: #fff;
+    background: linear-gradient(145deg, #3d2b1f, #2e1a13);
+    background-image: url('crystal-background.jpg'); /* Add a crystalline texture for the effect */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+/* Header */
+  header {
+    text-align: center;
+    padding: 2rem 0;
+    background: #140d07;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Font styling for R-A-Y-Z and O-L-U-T-I-O-N */
+.rayz {
+    color: #ff9800;
+    font-family: Trebuchet MS;
+    font-size: 1em; /* Font size */
+    text-shadow:
+    0px 1px 0px #ff4500,
+    0px 2px 0px #ff4500,
+    0px 3px 0px #ff4500,
+    0px 4px 0px #ff4500,
+    0px 5px 0px #ff4500,
+    0px 6px 0px #ff4500,
+    0px 7px 0px #ff4500,
+    0px 8px 0px #ff4500,
+    0px 9px 0px #ff4500,
+    0px 10px 0px #ff4500,
+
+
+    0px 10px 5px #ff2000;
+
+}
+
+.olution {
+    color: white;
+     font-family: Trebuchet MS;
+     font-size: 1em;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.hamburger .line {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #1e140a;
+    transition: left 0.3s ease;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.nav-links {
+    list-style: none;
+    text-align: left;
+}
+
+.nav-links li {
+    padding: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+
+/* Close Button Styling */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 1001;
+    outline: none;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #ff9800;
+}
+
+
+
+/* Main Content */
+main {
+    padding: 2rem;
+    background: linear-gradient(145deg, #4b2e1a, #5a3b27); /* Crystalline brown background */
+    background-image: url('crystal-background.jpg'); /* Add a better crystalline texture here */
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.products-section {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.products-section h2 {
+    color: #ff9800;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Product Categories */
+.product-category {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.product-category:hover {
+    transform: translateY(-5px);
+}
+
+.product-category h3 {
+    color: #ff9800;
+}
+
+.product-category img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.product-category a {
+    color: #ff9800 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-category a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #140d07;
+    color: #fff;
+  }

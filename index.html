@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to RAYZolution - The ultimate affiliate marketing hub.">
+    <title>RAYZolution - Products</title>
+    <link rel="stylesheet" href="rayz.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="close-btn">&times;</button>
+        <ul class="nav-links">
+            <li><a href="Rayzolution.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Merch</a></li>
+            <li><a href="#">Psychology</a></li>
+            <li><a href="sociallinks.html">Social Links</a></li>
+            <li><a href="#">Writing & Coding Hub</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="title">
+            <span class="rayz">RAYZ</span><span class="olution">OLUTION</span>
+        </div>
+    </header>
+    
+
+    <!-- Main Content -->
+    <main>
+        <section class="products-section">
+            <h2>Best Products</h2>
+
+            <!-- Product Categories -->
+            <div class="product-category">
+                <h3>Top 10 Phones of November 2025</h3>
+                <img src="phone.jpg" alt="Phones">
+                <p><a href="products.html">View Affiliate Links</a></p>
+            </div>
+            <div class="product-category">
+                <h3>Top 10 Sneakers of November 2025</h3>
+                <img src="sneaker.jpg" alt="Sneakers">
+                <p><a href="products.html">View Affiliate Links</a></p>
+            </div>
+            <div class="product-category">
+                <h3>Top 10 Beauty Products of November 2025</h3>
+                <img src="beauty.jpg" alt="Beauty Products">
+                <p><a href="products.html">View Affiliate Links</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Rayzolution: Empowering, motivating, and revolutionising</p>
+        <h2>Contact Us</h2>
+        <p>Email: RAYZolution@gmail.com</p>
+        <p>Phone: +27 68 383 1584<br>+27 63 354 6954<br>+27 71 448 6755<br>+27 81 518 0049</p>
+        <p>&copy; 2024 RAYZolution. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Sidebar -->
+    <script>
+        const sidebar = document.getElementById("sidebar");
+        const hamburger = document.getElementById("hamburger");
+        const closeBtn = document.getElementById("close-btn");
+
+        hamburger.addEventListener("click", () => sidebar.classList.add("active"));
+        closeBtn.addEventListener("click", () => sidebar.classList.remove("active"));
+    </script>
+</body>
+</html>

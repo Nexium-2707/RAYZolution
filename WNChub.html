@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Writing and Coding Hub - RAYZolution offers professional website and app development, copywriting, and coding services.">
+    <title>RAYZolution - Writing & Coding Hub</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="close-btn">&times;</button>
+        <ul class="nav-links">
+            <li><a href="Rayzolution.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="sociallinks.html">Social Links</a></li>
+            <li><a href="WNChub.html">Writing & Coding Hub</a></li>
+            <li><a href="#">Merch</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="title">
+            <span class="rayz">RAYZ</span><span class="olution">OLUTION</span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="services-section">
+            <h2>Writing & Coding Hub</h2>
+            <p>Welcome to the Writing & Coding Hub! Whether you need professional website development, app creation, or expert copywriting, we’ve got you covered. Submit your project details, and we’ll send you a quote based on your requirements. Our skilled coders Azhar (Premium Service) and Zunaid (Standard Service) are here to deliver exceptional results.</p>
+        </section>
+
+        <!-- Website and App Development Section -->
+        <section class="coding-services">
+            <h3>Website & App Development</h3>
+            <p>We offer professional coding services for the following:</p>
+            <ul>
+                <li>Website Development</li>
+                <li>Mobile App Development</li>
+                <li>eCommerce Websites</li>
+                <li>Portfolio Websites</li>
+                <li>Custom Web Applications</li>
+                <li>Bug Fixes & Code Optimization</li>
+            </ul>
+            <form action="mailto:RAYZolution@gmail.com" method="post" enctype="text/plain">
+                <label for="coder">Choose a Coder:</label>
+                <select id="coder" name="coder" required>
+                    <option value="Azhar">Azhar (Premium Service)</option>
+                    <option value="Zunaid">Zunaid (Standard Service)</option>
+                </select>
+                <br><br>
+                <label for="website-type">Website/App Type:</label>
+                <input type="text" id="website-type" name="website-type" placeholder="e.g., Portfolio, eCommerce" required>
+                <br><br>
+                <label for="theme">Theme/Style:</label>
+                <input type="text" id="theme" name="theme" placeholder="e.g., Minimalist, Professional" required>
+                <br><br>
+                <label for="purpose">Purpose:</label>
+                <input type="text" id="purpose" name="purpose" placeholder="e.g., To showcase products" required>
+                <br><br>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                <br><br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                <br><br>
+                <label for="description">Project Description:</label>
+                <textarea id="description" name="description" rows="5" placeholder="Describe your project in detail" required></textarea>
+                <br><br>
+                <button type="submit">Send Order</button>
+            </form>
+        </section>
+
+        <!-- Copywriting Section -->
+        <section class="copywriting-services">
+            <h3>Copywriting Services</h3>
+            <p>Need compelling and persuasive content? We provide expert copywriting services for:</p>
+            <ul>
+                <li>Blog Posts</li>
+                <li>Product Descriptions</li>
+                <li>Sales Copy</li>
+                <li>Website Content</li>
+                <li>Email Campaigns</li>
+            </ul>
+            <form action="mailto:RAYZolution@gmail.com" method="post" enctype="text/plain">
+                <label for="copywriting-name">Your Name:</label>
+                <input type="text" id="copywriting-name" name="copywriting-name" placeholder="Your Full Name" required>
+                <br><br>
+                <label for="copywriting-email">Your Email:</label>
+                <input type="email" id="copywriting-email" name="copywriting-email" placeholder="Your Email Address" required>
+                <br><br>
+                <label for="copywriting-description">Project Description:</label>
+                <textarea id="copywriting-description" name="copywriting-description" rows="5" placeholder="Describe your copywriting needs in detail" required></textarea>
+                <br><br>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Rayzolution: Empowering, motivating, and revolutionising</p>
+        <h2>Contact Us</h2>
+        <p>Email: RAYZolution@gmail.com</p>
+        <p>Phone: +27 68 383 1584<br>+27 63 354 6954<br>+27 71 448 6755<br>+27 81 518 0049</p>
+        <p>&copy; 2024 RAYZolution. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Sidebar -->
+    <script>
+        const sidebar = document.getElementById("sidebar");
+        const hamburger = document.getElementById("hamburger");
+        const closeBtn = document.getElementById("close-btn");
+
+        hamburger.addEventListener("click", () => sidebar.classList.add("active"));
+        closeBtn.addEventListener("click", () => sidebar.classList.remove("active"));
+    </script>
+</body>
+</html>
