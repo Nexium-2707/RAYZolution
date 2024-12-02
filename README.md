@@ -74,12 +74,8 @@ Welcome to **RAYZolution**, the ultimate affiliate marketing and coding hub! Thi
 ## Contact Information
 
 For inquiries, reach us at:
-- **Email:** RAYZolution@gmail.com
+- **Email:** RAYZolution24@gmail.com
 - **Phone:**
-  - +27 68 383 1584
-  - +27 63 354 6954
-  - +27 71 448 6755
-  - +27 81 518 0049
 
 ---
 
